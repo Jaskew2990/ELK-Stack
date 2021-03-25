@@ -3,6 +3,7 @@ UNIT 13 PROJECT SUBMISSION
 ![Screenshot of Original VM](Pictures/createVN.png)
 - Create a Peer connection between your vNets. This will allow traffic to pass between your vNets and regions. This peer connection will make both a connection from your first vNet to your Second vNet _And_ a reverse connection from your second vNet back to your first vNet. This will allow traffic to pass in both directions.
 - Navigate to 'Virtual Network' in the Azure Portal. 
+![Screenshot of Add Peering](Pictures/AddPeering.png)
 - Select your new vNet to view it's details. 
 - Under 'Settings' on the left side, select 'Peerings'.
 - Click the `+ Add` button to create a new Peering.
