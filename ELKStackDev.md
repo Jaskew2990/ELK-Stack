@@ -1,41 +1,37 @@
 UNIT 13 PROJECT SUBMISSION
-- Create a new vNet located in the same resource group you have been using.
+- A new vNet located in the same resource group.
 
 ![Screenshot of Original VM](Pictures/createVN.png)
 
-- Create a Peer connection between your vNets. This will allow traffic to pass between your vNets and regions. This peer connection will make both a connection from your first vNet to your Second vNet _And_ a reverse connection from your second vNet back to your first vNet. This will allow traffic to pass in both directions.
-- Navigate to 'Virtual Network' in the Azure Portal.
+- Create a Peer connection between vNets. Allows traffic to pass between vNets and regions. Makes both a connection from the first vNet to the Second vNet _And_ a reverse connection from the second vNet back to the first vNet, allowing traffic to pass in both directions.
 
 ![Screenshot of Add Peering](Pictures/AddPeering.png)
 
-- Select your new vNet to view it's details. 
-- Under 'Settings' on the left side, select 'Peerings'.
-- Click the `+ Add` button to create a new Peering.
-- Elk-to-Red would make sense
-- Choose your original RedTeam vNet in the dropdown labeled 'Virtual Network'. This is the network you are connecting to your new vNet and you should only have one option.
-- Name the resulting connection from your RedTeam Vnet to your Elk vNet.
-		- Red-to-Elk would make sense
-- Leave all other settings at their defaults
+- Select vNet and vire'Peerings'.
+- Create a new Peerings named Elk-to-Red
+- RedTeam vNet in the dropdown labeled 'Virtual Network'.
+- Named the resulting connection from  RedTeam Vnet to Elk vNet. "Red-to-Elk" 
+- All other settings at their defaults
 
  
  
  
 
 ### 2. Creating a New VM
-Set up a new virtual machine to run ELK.
+Created a new virtual machine to run ELK.
  
  
 (public key
 (ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVhGkoToPcxT696ubUk95xm4V5kDXhg451dOrYkKr2hiZR+mHY6vMOJvgm+Hu8FpdR4CJ7CKOH1UcJm6C/JiaGJe3EvCOsfr6wf/RytpQ9R1wZpjAZorCCRLOBjpV5Bj/+4fP0VXro0KG+nghe1eG3kxWYX/a6Q+XjY2/bqsmqDsgNHuHsLZVEDvukO10BTOfvX5Y70LS6sfA0dQX+Feq/Yxhbb8AzUlOg6kYleCRfq57dTeXm5a9qUxg+MjMbewoVIcYb/8GRtizQe3y9inBpopBpR3sJMeB0wcH76T4uzEJdbzkhHzw+u/pgjUxxerlsYK/XwnS3UEFI0fxzyeOB root@81ba418706b6)
 
-Ssh into your jumpbox
+Ssh into jumpbox
 <ssh azadmin@”nic public ip address>
  
 
  
 
  
-- SSH into your Jump-Box using `ssh username@jump.box.ip`
+- SSH into Jump-Box using `ssh username@jump.box.ip`
 - Check for your Ansible container:
 - Locate the container name:
   ```bash
