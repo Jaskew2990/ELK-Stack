@@ -45,7 +45,8 @@ SSH into Jump-Box
 
 
 - Connect to the Ansible container:
-  
+
+![Screenshot of Add Peering](Pictures/ConnectContainer.png)
 
 - Copy the SSH key from the Ansible container on your jump box:
 cat ~/.ssh/id_rsa.pub
