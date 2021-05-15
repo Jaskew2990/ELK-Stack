@@ -155,7 +155,7 @@ Ensure ELK server container is up and running.
 
   - Verify that the container is on.
 
- ![Screenshot of Add Peering](Pictures/docker_container_list.png)
+![Screenshot of Add Peering](Pictures/docker_container_list.PNG)
 
 Install Filebeat on your DVWA VM:
 - Open ELK server homepage.
