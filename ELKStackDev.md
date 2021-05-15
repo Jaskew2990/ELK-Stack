@@ -85,7 +85,7 @@ The IP address is the VMs private ip.
 
 -New Ansible playbook for new ELK virtual machine.
 
-![Screenshot of Add Peering](Pictures/ELK_YML.png)
+![Screenshot of Add Peering](Pictures/ELK_YML.PNG)
 
 RUN ANSIBLE-PLAYBOOK /ETC/ANSIBLE/ELK.YML
  
