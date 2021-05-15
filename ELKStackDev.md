@@ -86,12 +86,10 @@ The IP address is the VMs private ip.
 -New Ansible playbook for new ELK virtual machine.
 
 
-NOW RUN THE ANSIBLE-PLAYBOOK /ETC/ANSIBLE/ELK.YML
- 
- 
+![Screenshot of Add Peering](Pictures/ELK_YML.png)
 
-
-    - Before you can run the elk container, we need to increase the memory:
+RUN ANSIBLE-PLAYBOOK /ETC/ANSIBLE/ELK.YML
+ 
 
  
 NEW PUBLIC KEY
