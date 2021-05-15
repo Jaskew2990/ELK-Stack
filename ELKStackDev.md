@@ -145,7 +145,7 @@ Verify by loading the ELK stack server from  browser at `http://[your.VM.IP]:560
 
 
 
-##### Filebeat Installation
+#### Filebeat Installation
 
 #### 6. Installing Filebeat on the DVWA Container
 Ensure ELK server container is up and running.
