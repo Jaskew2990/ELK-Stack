@@ -96,11 +96,11 @@ Increase Memory
 
 ![Screenshot of Add Peering](Pictures/IncreaseMemory.PNG)
 
-![Screenshot of Add Peering](Pictures/IncreaseMemory2.PNG)
+![Screenshot of Add Peering](Pictures/IncreaseMemory2.png)
 
-![Screenshot of Add Peering](Pictures/IncreaseMemory3.PNG)
+![Screenshot of Add Peering](Pictures/IncreaseMemory3.png)
 
-![Screenshot of Add Peering](Pictures/IncreaseMemory4.PNG)
+![Screenshot of Add Peering](Pictures/IncreaseMemory2.png)
 
  
 NEW PUBLIC KEY
