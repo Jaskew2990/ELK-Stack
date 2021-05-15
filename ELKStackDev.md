@@ -161,10 +161,12 @@ Install Filebeat on DVWA VM:
 - Open ELK server homepage.
     - **Add Log Data** --> **System Logs** --> **DEB** (view the Linux Filebeat installation instructions)
  
+![Screenshot of Add Peering](Pictures/InstallFilebeat.PNG)
 
-### 2. Creating the Filebeat Configuration File
-Next, create a Filebeat configuration file and edit this file so that it has the correct settings to work with your ELK server.
-Open a terminal and SSH into your jump box:
+
+### 2. Filebeat Configuration File
+Create Filebeat configuration file with the correct settings to work with the ELK server.
+Open a terminal and SSH into jumpbox:
 
  
 Copy the provided configuration file for Filebeat to your Ansible container: [Filebeat Configuration File Template](config_files/filebeat-config.yml).
