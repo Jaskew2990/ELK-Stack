@@ -207,11 +207,9 @@ Create another Ansible playbook that accomplishes the Linux Filebeat installatio
 -	Run the `filebeat modules enable system` command.
 -	Run the `filebeat setup` command.
 -	Run the `service metricbeat start` command.
--	Solution:
-- [Filebeat Installation Play](config_files/filebeat-playbook.yml)
 - After entering the information into the Filebeat configuration file and Ansible playbook, run: `ansible-playbook filebeat-playbook.yml`.
 
--	Fyi – new puclic key created for web 1 and web 2 with username sysadmin
+---> new puclic key created for web 1 and web 2 with username sysadmin
 - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVhGkoToPcxT696ubUk95xm4V5kDXhg451dOrYkKr2hiZR+mHY6vMOJvgm+Hu8FpdR4CJ7CKOH1UcJm6C/JiaGJe3EvCOsfr6wf/RytpQ9R1wZpjAZorCCRLOBjpV5Bj/+4fP0VXro0KG+nghe1eG3kxWYX/a6Q+XjY2/bqsmqDsgNHuHsLZVEDvukO10BTOfvX5Y70LS6sfA0dQX+Feq/Yxhbb8AzUlOg6kYleCRfq57dTeXm5a9qUxg+MjMbewoVIcYb/8GRtizQe3y9inBpopBpR3sJMeB0wcH76T4uzEJdbzkhHzw+u/pgjUxxerlsYK/XwnS3UEFI0fxzyeOB
  
  
