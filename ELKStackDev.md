@@ -177,20 +177,12 @@ Used [Filebeat Configuration File Template](config_files/filebeat-config.yml) co
 ![Screenshot of Add Peering](Pictures/FilebeatConfiguration.PNG)
  
  
-Once this file is on Ansible container, edit this file as specified in the Filebeat instructions (the specific steps are also detailed below). 
-•	Edit the configuration in this file to match the settings described in the installation instructions for your server.
--	**Hint:** Instead of using Ansible to edit individual lines in the `/etc/filebeat/filebeat-config.yml` configuration file, it is easier to keep a copy of the entire configuration file (preconfigured) with your Ansible playbook and use the Ansible `copy` module to copy the preconfigured file into place.
--	Because we are connecting your webVM's to the ELK server, we need to edit the file to include your ELK server's IP address. 
--	Note that the default credentials are `elastic:changeme` and should not be changed at this step.
+Once this file is on Ansible container, edit file as specified in the Filebeat instructions 
+
 •	Scroll to line #1106 and replace the IP address with the IP address of your ELK machine.
 -	NANO INTO THE FILEBEAT-CONFIG.YML FILE TO EDIT”
 -	*ATL G* TO SEARCH BY LINE
-```bash
-output.elasticsearch:
-hosts: ["10.1.0.4:9200"]
-username: "elastic"
-password: "changeme"
-```
+
  
 •	Scroll to line #1806 and replace the IP address with the IP address of your ELK machine.
 ```
