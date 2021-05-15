@@ -29,6 +29,7 @@ Created a new virtual machine to run ELK.
 SSH into Jump-Box
 
 ![Screenshot of Add Peering](Pictures/SSH1.png)
+
 ![Screenshot of Add Peering](Pictures/SSH2.png)
 
 
@@ -111,19 +112,15 @@ NEW PUBLIC KEY
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQHuEhReRo8KGb5r6u6NPwd9VG2gbSvZlCBzZv0gOdCnsTe5tQFOVhYPFiD6Jt2h4VDe/sG2EDt0whEGV5HhGtYbwIOkeVna1oeu5DFryyqUt3TEZz8tZY85MFLurrMnLth1UIdL/ikUz9aIMzeO/0Olr0KaGbejJyv5X0T7cEB4KkYBIySS0GIEAUWyCfl67KZZFHiWxnE2OFMEstneGd4FE/rz4QZuExJ3dlR3m6cuuNb9LQl96e3WVN0gHsim1xPrt9w/LQCpbpVXB3v4d10D7m/LHSYLUsD9Kofa1Mo8/2djQrY11JHRwM1MBBhvCm7NgYcOev6c4I9rCt9Rgb)
  
 
- 
-
--	This is a system requirement for the ELK container. More info [at the `elk-docker` documentation](https://elk-docker.readthedocs.io/#prerequisites).
-
 #### 4. Launching and Exposing the Container 
-After Docker is installed, download and run the `sebp/elk:761` container.
+Download and run the `sebp/elk:761` container.
   - The container should be started with these published ports:
     - `5601:5601` 
     - `9200:9200`
     - `5044:5044`
-Your Ansible output should resemble the output below and not contain any errors:
+
 NOW RUN THE ANSIBLE-PLAYBOOK /ETC/ANSIBLE/ELK.YML
-Command <ansible-playbook /etc/ansible/elk.yml>
+
  
 
 - SSH from your Ansible container to your ELK machine to verify the connection before you run your playbook.
