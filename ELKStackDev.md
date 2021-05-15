@@ -203,7 +203,7 @@ Create another Ansible playbook that accomplishes the Linux Filebeat installatio
 	`dpkg -i filebeat-7.4.0-amd64.deb`
 - Copied the Filebeat configuration file from the Ansible container to WebVM's where Filebeat was installed
 - Used Ansible module `copy` to copy the entire configuration file into the correct place.
-- Placed configuration file in a directory called `files` in your Ansible directory.
+- Placed configuration file in a directory called `files` in Ansible directory.
 -	Run the `filebeat modules enable system` command.
 -	Run the `filebeat setup` command.
 -	Run the `service metricbeat start` command.
