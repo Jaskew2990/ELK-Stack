@@ -1,4 +1,4 @@
-### 1.
+#### 1.
 - A new vNet located in the same resource group.
 
 ![Screenshot of Original VM](Pictures/createVN.png)
@@ -13,7 +13,7 @@
 - Resulting connection from  RedTeam Vnet to Elk vNet = "Red-to-Elk" 
 - All other settings at their defaults
  
-### 2. Creating a New VM
+#### 2. Creating a New VM
 Created a new virtual machine to run ELK.
 
 ![Screenshot of Add Peering](Pictures/CreatingNewVN1.png)
@@ -145,9 +145,9 @@ Verify by loading the ELK stack server from  browser at `http://[your.VM.IP]:560
 
 
 
-#### Filebeat Installation 
+##### Filebeat Installation 
 
-### 1. Installing Filebeat on the DVWA Container
+#### 6. Installing Filebeat on the DVWA Container
 Ensure ELK server container is up and running.
 - Navigate to http://[your.VM.IP]:5601/app/kibana. Using the public IP address of the ELK server.
  
@@ -164,7 +164,7 @@ Install Filebeat on DVWA VM:
 ![Screenshot of Add Peering](Pictures/InstallFilebeat.PNG)
 
 
-### 2. Filebeat Configuration File
+#### 7. Filebeat Configuration File
 Create Filebeat configuration file with the correct settings to work with the ELK server.
 Open a terminal and SSH into jumpbox:
 
@@ -195,7 +195,7 @@ Save this file in  `/etc/ansible/files/filebeat-config.yml`.
 -	*CONTROL X* TO SAVE
 
 
-### 3. Creating Filebeat Installation Play
+#### 8. Creating Filebeat Installation Play
 Create another Ansible playbook that accomplishes the Linux Filebeat installation instructions.
 -	The playbook should:
 o	Download the `.deb` file from [artifacts.elastic.co](https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.4.0-amd64.deb).
@@ -217,7 +217,7 @@ o	ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVhGkoToPcxT696ubUk95xm4V5kDXhg451dOrYkK
  
 
 
-### 4. Verifying Installation and Playbook 
+#### 9. Verifying Installation and Playbook 
 Next, you needed to confirm that the ELK stack was receiving logs. Navigate back to the Filebeat installation page on the ELK server GUI.
 - Verify that your playbook is completing Steps 1-4.
 - On the same page, scroll to **Step 5: Module Status** and click **Check Data**.
