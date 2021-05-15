@@ -99,9 +99,7 @@ Increase Memory
 NEW PUBLIC KEY
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQHuEhReRo8KGb5r6u6NPwd9VG2gbSvZlCBzZv0gOdCnsTe5tQFOVhYPFiD6Jt2h4VDe/sG2EDt0whEGV5HhGtYbwIOkeVna1oeu5DFryyqUt3TEZz8tZY85MFLurrMnLth1UIdL/ikUz9aIMzeO/0Olr0KaGbejJyv5X0T7cEB4KkYBIySS0GIEAUWyCfl67KZZFHiWxnE2OFMEstneGd4FE/rz4QZuExJ3dlR3m6cuuNb9LQl96e3WVN0gHsim1xPrt9w/LQCpbpVXB3v4d10D7m/LHSYLUsD9Kofa1Mo8/2djQrY11JHRwM1MBBhvCm7NgYcOev6c4I9rCt9Rgb)
  
-Use command <sysctl vw.max_map_count> to check current memory status
- 
-Use command <sysctl -w vm.max_map_count=262144> to increase memory
+
  
 
 -	This is a system requirement for the ELK container. More info [at the `elk-docker` documentation](https://elk-docker.readthedocs.io/#prerequisites).
