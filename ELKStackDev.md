@@ -1,4 +1,4 @@
-#### 1.
+#### SETTING UP ELK STACK SEVER TO MONITOR CLOUND NETWORK
 - A new vNet located in the same resource group.
 
 ![Screenshot of Original VM](Pictures/createVN.png)
