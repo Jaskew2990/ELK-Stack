@@ -169,7 +169,7 @@ Create Filebeat configuration file with the correct settings to work with the EL
 Open a terminal and SSH into jumpbox:
 
  
-Copy the provided configuration file for Filebeat to your Ansible container: [Filebeat Configuration File Template](config_files/filebeat-config.yml).
+Used [Filebeat Configuration File Template](config_files/filebeat-config.yml) configuration file for Filebeat to the Ansible container: 
 
 ![Screenshot of Add Peering](Pictures/ansible_mkdir_files.png)
  
@@ -177,7 +177,7 @@ Copy the provided configuration file for Filebeat to your Ansible container: [Fi
 ![Screenshot of Add Peering](Pictures/FilebeatConfiguration.PNG)
  
  
-Once you have this file on your Ansible container, edit this file as specified in the Filebeat instructions (the specific steps are also detailed below). 
+Once this file is on Ansible container, edit this file as specified in the Filebeat instructions (the specific steps are also detailed below). 
 •	Edit the configuration in this file to match the settings described in the installation instructions for your server.
 -	**Hint:** Instead of using Ansible to edit individual lines in the `/etc/filebeat/filebeat-config.yml` configuration file, it is easier to keep a copy of the entire configuration file (preconfigured) with your Ansible playbook and use the Ansible `copy` module to copy the preconfigured file into place.
 -	Because we are connecting your webVM's to the ELK server, we need to edit the file to include your ELK server's IP address. 
