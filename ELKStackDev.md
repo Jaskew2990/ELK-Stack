@@ -72,14 +72,18 @@ Configure a new VM using that SSH key.
 
 #### 3. Downloading and Configuring the Container
 In this step, you had to:
-- Add your new VM to the Ansible `hosts` file.
+-New VM added to Ansible `hosts` file.
  
+![Screenshot of Add Peering](Pictures/VMtoAnsibleHosts.png)
+
+![Screenshot of Add Peering](Pictures/VMtoAnsibleHosts2.png)
  
 The IP address is the VMs private ip.
-Save this
+
+![Screenshot of Add Peering](Pictures/Red_ElkVMprivateIP.png)
  
 
-- Create a new Ansible playbook to use for your new ELK virtual machine.
+-New Ansible playbook for new ELK virtual machine.
     - The header of the Ansible playbook can specify a different group of machines as well as a different remote user (in case you did not use the same admin name):
 
 
