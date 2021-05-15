@@ -8,13 +8,10 @@ UNIT 13 PROJECT SUBMISSION
 ![Screenshot of Add Peering](Pictures/AddPeering.png)
 
 - Select vNet and view 'Peerings'.
-- Create a new Peerings named Elk-to-Red
-- RedTeam vNet in the dropdown labeled 'Virtual Network'.
-- Named the resulting connection from  RedTeam Vnet to Elk vNet. "Red-to-Elk" 
+- Peerings named Elk-to-Red
+- RedTeam vNet labeled 'Virtual Network'.
+- Resulting connection from  RedTeam Vnet to Elk vNet = "Red-to-Elk" 
 - All other settings at their defaults
-
- 
- 
  
 
 ### 2. Creating a New VM
