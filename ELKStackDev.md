@@ -191,8 +191,8 @@ Once this file is on Ansible container, edit file as specified in the Filebeat i
 ![Screenshot of Add Peering](Pictures/ELK_IP.PNG)
 
 Save this file in  `/etc/ansible/files/filebeat-config.yml`.
-o	*CONTROL O*
-o	*CONTROL X* TO SAVE
+-	*CONTROL O*
+-	*CONTROL X* TO SAVE
 
 
 ### 3. Creating Filebeat Installation Play
