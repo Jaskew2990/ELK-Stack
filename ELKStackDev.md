@@ -34,7 +34,7 @@ SSH into Jump-Box
 
 
 
-- Check for your Ansible container:
+- Check for Ansible container:
 
 ![Screenshot of Add Peering](Pictures/AnsibleContainer.png)
  
@@ -54,7 +54,7 @@ SSH into Jump-Box
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVhGkoToPcxT696ubUk95xm4V5kDXhg451dOrYkKr2hiZR+mHY6vMOJvgm+Hu8FpdR4CJ7CKOH1UcJm6C/JiaGJe3EvCOsfr6wf/RytpQ9R1wZpjAZorCCRLOBjpV5Bj/+4fP0VXro0KG+nghe1eG3kxWYX/a6Q+XjY2/bqsmqDsgNHuHsLZVEDvukO10BTOfvX5Y70LS6sfA0dQX+Feq/Yxhbb8AzUlOg6kYleCRfq57dTeXm5a9qUxg+MjMbewoVIcYb/8GRtizQe3y9inBpopBpR3sJMeB0wcH76T4uzEJdbzkhHzw+u/pgjUxxerlsYK/XwnS3UEFI0fxzyeOB root@81ba418706b6)
 
 
-INSERT THIS PUBLIC KEY INTO YOUR NEW AZURE WM PASSWORDS & update
+INSERT THIS PUBLIC KEY INTO NEW AZURE WM PASSWORDS & update
 
 ![Screenshot of Add Peering](Pictures/InsertPublicKey.png)
  
@@ -124,7 +124,7 @@ NOW RUN THE ANSIBLE-PLAYBOOK /ETC/ANSIBLE/ELK.YML
 ![Screenshot of Add Peering](Pictures/Run_Ansible_Playbook2.png)
  
 
-- SSH from your Ansible container to your ELK machine to verify the connection before running playbook.
+- SSH from Ansible container to ELK machine to verify the connection before running playbook.
 - After ELK container is installed, SSH to container and double check that `elk-docker` container is running.
 
 ![Screenshot of Add Peering](Pictures/Sudo_docker_ps.PNG)
