@@ -221,9 +221,10 @@ Finally, confirm the ELK stack was receiving logs. Navigate back to the Filebeat
 - Verify that the playbook is completing Steps 1-4.
 -  **Step 5: Module Status** --> **Check Data** --> **Verify Incoming Data**.
 
+![Screenshot of Add Peering](Pictures/Filebeat_Syslogs_dashboard.PNG)
 
 
-
+![Screenshot of Add Peering](Pictures/Dashboard_Filebeat_System.PNG)
 
 
 
