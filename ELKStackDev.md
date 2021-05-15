@@ -121,11 +121,11 @@ Download and run the `sebp/elk:761` container.
 
 NOW RUN THE ANSIBLE-PLAYBOOK /ETC/ANSIBLE/ELK.YML
 
+![Screenshot of Add Peering](Pictures/Run_Ansible_Playbook2.png)
  
 
-- SSH from your Ansible container to your ELK machine to verify the connection before you run your playbook.
-- After the ELK container is installed, SSH to your container and double check that your `elk-docker` container is running.
-Run `sudo docker ps`
+- SSH from your Ansible container to your ELK machine to verify the connection before running playbook.
+- After ELK container is installed, SSH to container and double check that `elk-docker` container is running.
 
 
 
