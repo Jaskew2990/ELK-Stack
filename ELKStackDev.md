@@ -198,21 +198,21 @@ Save this file in  `/etc/ansible/files/filebeat-config.yml`.
 #### 8. Creating Filebeat Installation Play
 Create another Ansible playbook that accomplishes the Linux Filebeat installation instructions.
 -	The playbook should:
-o	Download the `.deb` file from [artifacts.elastic.co](https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.4.0-amd64.deb).
-  - Install the `.deb` file using the `dpkg` command shown below:
+-	Downloaded the `.deb` file from [artifacts.elastic.co](https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.4.0-amd64.deb).
+  - Installed the `.deb` file using the `dpkg` command shown below:
 	`dpkg -i filebeat-7.4.0-amd64.deb`
-o	Copy the Filebeat configuration file from your Ansible container to your WebVM's where you just installed Filebeat.
-o	You can use the Ansible module `copy` to copy the entire configuration file into the correct place.
-o	You will need to place the configuration file in a directory called `files` in your Ansible directory.
+- Copied the Filebeat configuration file from the Ansible container to WebVM's where Filebeat was installed
+- Used Ansible module `copy` to copy the entire configuration file into the correct place.
+- Placed configuration file in a directory called `files` in your Ansible directory.
 -	Run the `filebeat modules enable system` command.
 -	Run the `filebeat setup` command.
 -	Run the `service metricbeat start` command.
 -	Solution:
 - [Filebeat Installation Play](config_files/filebeat-playbook.yml)
-- After entering your information into the Filebeat configuration file and Ansible playbook, you should have run: `ansible-playbook filebeat-playbook.yml`.
+- After entering the information into the Filebeat configuration file and Ansible playbook, run: `ansible-playbook filebeat-playbook.yml`.
 
 -	Fyi – new puclic key created for web 1 and web 2 with username sysadmin
-o	ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVhGkoToPcxT696ubUk95xm4V5kDXhg451dOrYkKr2hiZR+mHY6vMOJvgm+Hu8FpdR4CJ7CKOH1UcJm6C/JiaGJe3EvCOsfr6wf/RytpQ9R1wZpjAZorCCRLOBjpV5Bj/+4fP0VXro0KG+nghe1eG3kxWYX/a6Q+XjY2/bqsmqDsgNHuHsLZVEDvukO10BTOfvX5Y70LS6sfA0dQX+Feq/Yxhbb8AzUlOg6kYleCRfq57dTeXm5a9qUxg+MjMbewoVIcYb/8GRtizQe3y9inBpopBpR3sJMeB0wcH76T4uzEJdbzkhHzw+u/pgjUxxerlsYK/XwnS3UEFI0fxzyeOB
+- ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVhGkoToPcxT696ubUk95xm4V5kDXhg451dOrYkKr2hiZR+mHY6vMOJvgm+Hu8FpdR4CJ7CKOH1UcJm6C/JiaGJe3EvCOsfr6wf/RytpQ9R1wZpjAZorCCRLOBjpV5Bj/+4fP0VXro0KG+nghe1eG3kxWYX/a6Q+XjY2/bqsmqDsgNHuHsLZVEDvukO10BTOfvX5Y70LS6sfA0dQX+Feq/Yxhbb8AzUlOg6kYleCRfq57dTeXm5a9qUxg+MjMbewoVIcYb/8GRtizQe3y9inBpopBpR3sJMeB0wcH76T4uzEJdbzkhHzw+u/pgjUxxerlsYK/XwnS3UEFI0fxzyeOB
  
  
 
