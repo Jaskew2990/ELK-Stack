@@ -127,19 +127,20 @@ NOW RUN THE ANSIBLE-PLAYBOOK /ETC/ANSIBLE/ELK.YML
 - SSH from your Ansible container to your ELK machine to verify the connection before running playbook.
 - After ELK container is installed, SSH to container and double check that `elk-docker` container is running.
 
-
+![Screenshot of Add Peering](Pictures/Sudo_docker_ps.PNG)
 
  
 #### 5. Identity and Access Management
  
-This ELK web server runs on port `5601`. Create an incoming rule for your security group that allows TCP traffic over port `5601` from your IP address.
+This ELK web server runs on port `5601`. 
+Incoming rule for security group: Allow TCP traffic over port `5601` from IP address.
  
 
  
-Verify that you can load the ELK stack server from your browser at `http://[your.VM.IP]:5601/app/kibana`. 
+Verify by loading the ELK stack server from  browser at `http://[your.VM.IP]:5601/app/kibana`. 
 (NOTE, THE IP ADDRESS CHANGES EACH TIME YOU START THE VM IN AZURE)
 
-## Day 2 Solution Guide: Filebeat Installation 
+#### Day 2 Solution Guide: Filebeat Installation 
 ### 1. Installing Filebeat on the DVWA Container
 First, make sure that our ELK server container is up and running.
 - Navigate to http://[your.VM.IP]:5601/app/kibana. Use the public IP address of the ELK server that you created.
