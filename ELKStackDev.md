@@ -219,15 +219,11 @@ Create another Ansible playbook that accomplishes the Linux Filebeat installatio
 
 
 #### 9. Verifying Installation and Playbook 
-Next, you needed to confirm that the ELK stack was receiving logs. Navigate back to the Filebeat installation page on the ELK server GUI.
-- Verify that your playbook is completing Steps 1-4.
-- On the same page, scroll to **Step 5: Module Status** and click **Check Data**.
-o	Scroll to the bottom and click on **Verify Incoming Data**.
--	Solution:
--	If the ELK stack was successfully receiving logs, you would have seen: 
--	![](Images/data_success.png)
+Finally, confirm the ELK stack was receiving logs. Navigate back to the Filebeat installation page on the ELK server GUI.
+- Verify that the playbook is completing Steps 1-4.
+-  **Step 5: Module Status** --> **Check Data** --> **Verify Incoming Data**.
 
--	 
+
 
 
 
