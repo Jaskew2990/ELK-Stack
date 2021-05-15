@@ -31,8 +31,12 @@ SSH into Jump-Box
 ![Screenshot of Add Peering](Pictures/SSH1.png)
 ![Screenshot of Add Peering](Pictures/SSH2.png)
 
+
+
 - Check for your Ansible container:
 ![Screenshot of Add Peering](Pictures/AnsibleContainer.png)
+ 
+ 
  
 - Start container:
 ![Screenshot of Add Peering](Pictures/StartContainer.png)
