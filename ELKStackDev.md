@@ -157,13 +157,9 @@ Ensure ELK server container is up and running.
 
 ![Screenshot of Add Peering](Pictures/docker_container_list.PNG)
 
-Install Filebeat on your DVWA VM:
+Install Filebeat on DVWA VM:
 - Open ELK server homepage.
-    - Click on **Add Log Data**.
- 
-    - Choose **System Logs**.
- 
-    - Click on the **DEB** tab under **Getting Started** to view the correct Linux Filebeat installation instructions.
+    - **Add Log Data** --> **System Logs** --> **DEB** (view the Linux Filebeat installation instructions)
  
 
 ### 2. Creating the Filebeat Configuration File
