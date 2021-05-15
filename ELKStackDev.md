@@ -32,21 +32,14 @@ SSH into Jump-Box
 ![Screenshot of Add Peering](Pictures/SSH2.png)
 
 - Check for your Ansible container:
-- Locate the container name:
-  ```bash
-  sysadmin@Jump-Box-Provisioner:~$ sudo docker container list -a
+![Screenshot of Add Peering](Pictures/AnsibleContainer.png)
+ 
+- Start container:
+![Screenshot of Add Peering](Pictures/StartContainer.png)
 
 
-  ```
- 
-- Start the container:
-  ```
- 
 - Connect to the Ansible container:
-  ```
- 
- 
- 
+  
 
 - Copy the SSH key from the Ansible container on your jump box:
 cat ~/.ssh/id_rsa.pub
