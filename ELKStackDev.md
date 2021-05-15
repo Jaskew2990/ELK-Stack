@@ -72,7 +72,7 @@ Configure a new VM using that SSH key.
 - Added to  new vNet (ELK_VN) with new Security Group for it.
 
 #### 3. Downloading and Configuring the Container
-In this step, you had to:
+
 -New VM added to Ansible `hosts` file.
  
 ![Screenshot of Add Peering](Pictures/VMtoAnsibleHosts.png)
