@@ -188,20 +188,14 @@ Once this file is on Ansible container, edit file as specified in the Filebeat i
  
 •	Scroll to line #1806 and replace the IP address with the IP address of your ELK machine.
 
-
+![Screenshot of Add Peering](Pictures/ELK_IP.PNG)
 
 Save this file in  `/etc/ansible/files/filebeat-config.yml`.
 o	*CONTROL O*
 o	*CONTROL X* TO SAVE
 
-•	After file edit,  settings 1806 read;
- 
- 
 
- 
-
-
-### 3. Creating the Filebeat Installation Play
+### 3. Creating Filebeat Installation Play
 Create another Ansible playbook that accomplishes the Linux Filebeat installation instructions.
 -	The playbook should:
 o	Download the `.deb` file from [artifacts.elastic.co](https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.4.0-amd64.deb).
