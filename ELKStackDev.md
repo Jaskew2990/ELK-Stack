@@ -21,6 +21,8 @@ UNIT 13 PROJECT SUBMISSION
 Created a new virtual machine to run ELK.
 
 ![Screenshot of Add Peering](Pictures/CreatingNewVN1.png)
+
+
 ![Screenshot of Add Peering](Pictures/CreatingNewVM2.png)
  
 (public key
