@@ -183,6 +183,8 @@ Once this file is on Ansible container, edit file as specified in the Filebeat i
 -	NANO INTO THE FILEBEAT-CONFIG.YML FILE TO EDIT”
 -	*ATL G* TO SEARCH BY LINE
 
+![Screenshot of Add Peering](Pictures/Edit_FILEBEAT_CONFIG_YML_FILE.PNG)
+
  
 •	Scroll to line #1806 and replace the IP address with the IP address of your ELK machine.
 ```
