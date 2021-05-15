@@ -84,15 +84,7 @@ The IP address is the VMs private ip.
  
 
 -New Ansible playbook for new ELK virtual machine.
-    - The header of the Ansible playbook can specify a different group of machines as well as a different remote user (in case you did not use the same admin name):
 
-
- 
-
-DOUBLE CHECK YOU ELK.YML TO MAKE SURE THERE ARE NO SPELLING ERRORS AND YOU HOSTS AND REMOTE USER ARE CORRECT
- 
-
-     
 
 NOW RUN THE ANSIBLE-PLAYBOOK /ETC/ANSIBLE/ELK.YML
  
