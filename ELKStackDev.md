@@ -48,20 +48,21 @@ SSH into Jump-Box
 
 ![Screenshot of Add Peering](Pictures/ConnectContainer.png)
 
-- Copy the SSH key from the Ansible container on your jump box:
-cat ~/.ssh/id_rsa.pub
-
  
 (public key)
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVhGkoToPcxT696ubUk95xm4V5kDXhg451dOrYkKr2hiZR+mHY6vMOJvgm+Hu8FpdR4CJ7CKOH1UcJm6C/JiaGJe3EvCOsfr6wf/RytpQ9R1wZpjAZorCCRLOBjpV5Bj/+4fP0VXro0KG+nghe1eG3kxWYX/a6Q+XjY2/bqsmqDsgNHuHsLZVEDvukO10BTOfvX5Y70LS6sfA0dQX+Feq/Yxhbb8AzUlOg6kYleCRfq57dTeXm5a9qUxg+MjMbewoVIcYb/8GRtizQe3y9inBpopBpR3sJMeB0wcH76T4uzEJdbzkhHzw+u/pgjUxxerlsYK/XwnS3UEFI0fxzyeOB root@81ba418706b6)
 
 
 INSERT THIS PUBLIC KEY INTO YOUR NEW AZURE WM PASSWORDS & update
+
+![Screenshot of Add Peering](Pictures/InsertPublicKey.png)
+ 
+ 
+SSH into VM
+
+![Screenshot of Add Peering](Pictures/SSHtoVM.png)
  
 
-Make sure you can ssh into your vm
- 
-Exit out of this
 
 Configure a new VM using that SSH key.
     - Make sure this VM has at least 4 GB of RAM.
