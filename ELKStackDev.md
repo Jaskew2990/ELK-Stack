@@ -91,6 +91,7 @@ RUN ANSIBLE-PLAYBOOK /ETC/ANSIBLE/ELK.YML
  
 ![Screenshot of Add Peering](Pictures/RUN_ANSIBLE_PLAYBOOK.PNG)
 
+
 Increase Memory
 
 ![Screenshot of Add Peering](Pictures/IncreaseMemory.PNG)
