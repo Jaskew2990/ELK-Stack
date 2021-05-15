@@ -171,15 +171,12 @@ Open a terminal and SSH into jumpbox:
  
 Copy the provided configuration file for Filebeat to your Ansible container: [Filebeat Configuration File Template](config_files/filebeat-config.yml).
 
-(FIRST -make the director)
+![Screenshot of Add Peering](Pictures/ansible_mkdir_files.png)
  
 
-- Run: `curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml`
+![Screenshot of Add Peering](Pictures/FilebeatConfiguration.PNG)
  
  
-
- 
-
 Once you have this file on your Ansible container, edit this file as specified in the Filebeat instructions (the specific steps are also detailed below). 
 •	Edit the configuration in this file to match the settings described in the installation instructions for your server.
 -	**Hint:** Instead of using Ansible to edit individual lines in the `/etc/filebeat/filebeat-config.yml` configuration file, it is easier to keep a copy of the entire configuration file (preconfigured) with your Ansible playbook and use the Ansible `copy` module to copy the preconfigured file into place.
