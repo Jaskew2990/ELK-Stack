@@ -3,7 +3,7 @@ UNIT 13 PROJECT SUBMISSION
 
 ![Screenshot of Original VM](Pictures/createVN.png)
 
-- Create a Peer connection between vNets. Allows traffic to pass between vNets and regions. Makes both a connection from the first vNet to the Second vNet _And_ a reverse connection from the second vNet back to the first vNet, allowing traffic to pass in both directions.
+- Create a Peer connection between vNets. This allows traffic to pass between vNets and regions. It makes both a connection from the first vNet to the Second vNet _And_ a reverse connection from the second vNet back to the first vNet, allowing traffic to pass in both directions.
 
 ![Screenshot of Add Peering](Pictures/AddPeering.png)
 
