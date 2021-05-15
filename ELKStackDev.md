@@ -187,24 +187,15 @@ Once this file is on Ansible container, edit file as specified in the Filebeat i
 
  
 •	Scroll to line #1806 and replace the IP address with the IP address of your ELK machine.
-```
-setup.kibana:
-host: "10.1.0.4:5601"
-```
+
+
+
 Save this file in  `/etc/ansible/files/filebeat-config.yml`.
 o	*CONTROL O*
 o	*CONTROL X* TO SAVE
 
-•	After you have edited the file, your settings 1806should resemble the below. Your IP address may be different, but all other settings should be the same, including ports.
-  ```
-  output.elasticsearch:
-  hosts: ["10.1.0.4:9200"]
-  username: "elastic"
-  password: "changeme"
-  ...
-  setup.kibana:
-  host: "10.1.0.4:5601"
-  ```
+•	After file edit,  settings 1806 read;
+ 
  
 
  
