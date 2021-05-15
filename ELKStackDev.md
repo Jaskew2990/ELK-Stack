@@ -1,4 +1,4 @@
-UNIT 13 PROJECT SUBMISSION
+### 1.
 - A new vNet located in the same resource group.
 
 ![Screenshot of Original VM](Pictures/createVN.png)
@@ -133,14 +133,20 @@ NOW RUN THE ANSIBLE-PLAYBOOK /ETC/ANSIBLE/ELK.YML
 #### 5. Identity and Access Management
  
 This ELK web server runs on port `5601`. 
+
 Incoming rule for security group: Allow TCP traffic over port `5601` from IP address.
  
+![Screenshot of Add Peering](Pictures/TCP_5601.PNG)
 
+![Screenshot of Add Peering](Pictures/TCP_5601(2).PNG)
  
 Verify by loading the ELK stack server from  browser at `http://[your.VM.IP]:5601/app/kibana`. 
 (NOTE, THE IP ADDRESS CHANGES EACH TIME YOU START THE VM IN AZURE)
 
-#### Day 2 Solution Guide: Filebeat Installation 
+
+
+#### Solution Guide: Filebeat Installation 
+
 ### 1. Installing Filebeat on the DVWA Container
 First, make sure that our ELK server container is up and running.
 - Navigate to http://[your.VM.IP]:5601/app/kibana. Use the public IP address of the ELK server that you created.
