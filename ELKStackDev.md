@@ -26,14 +26,12 @@ Created a new virtual machine to run ELK.
 (public key
 (ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVhGkoToPcxT696ubUk95xm4V5kDXhg451dOrYkKr2hiZR+mHY6vMOJvgm+Hu8FpdR4CJ7CKOH1UcJm6C/JiaGJe3EvCOsfr6wf/RytpQ9R1wZpjAZorCCRLOBjpV5Bj/+4fP0VXro0KG+nghe1eG3kxWYX/a6Q+XjY2/bqsmqDsgNHuHsLZVEDvukO10BTOfvX5Y70LS6sfA0dQX+Feq/Yxhbb8AzUlOg6kYleCRfq57dTeXm5a9qUxg+MjMbewoVIcYb/8GRtizQe3y9inBpopBpR3sJMeB0wcH76T4uzEJdbzkhHzw+u/pgjUxxerlsYK/XwnS3UEFI0fxzyeOB root@81ba418706b6)
 
-Ssh into jumpbox
-<ssh azadmin@”nic public ip address>
- 
+![Screenshot of Add Peering](Pictures/jumpboxprovisioner576.png)
+SSH into Jump-Box
 
- 
+![Screenshot of Add Peering](Pictures/SSH1.png)
+![Screenshot of Add Peering](Pictures/SSH2.png)
 
- 
-- SSH into Jump-Box using `ssh username@jump.box.ip`
 - Check for your Ansible container:
 - Locate the container name:
   ```bash
