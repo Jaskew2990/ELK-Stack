@@ -98,7 +98,11 @@ Increase Memory
 
 ![Screenshot of Add Peering](Pictures/IncreaseMemory2.png)
 
+CHECK CURRENT MEMORY
+
 ![Screenshot of Add Peering](Pictures/IncreaseMemory3.png)
+
+COMMAND TO INCREASE MEMORY
 
 ![Screenshot of Add Peering](Pictures/IncreaseMemory4.png)
 
