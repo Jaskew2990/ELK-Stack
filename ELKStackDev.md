@@ -149,16 +149,16 @@ Verify by loading the ELK stack server from  browser at `http://[your.VM.IP]:560
 
 ### 1. Installing Filebeat on the DVWA Container
 Ensure ELK server container is up and running.
-- Navigate to http://[your.VM.IP]:5601/app/kibana. Use the public IP address of the ELK server that you created.
+- Navigate to http://[your.VM.IP]:5601/app/kibana. Using the public IP address of the ELK server.
  
+![Screenshot of Add Peering](Pictures/KibanaFilebeat.png)
 
+  - Verify that the container is on.
 
-  - Run `docker container list -a` to verify that the container is on.
-  - If it isn't, run `docker start elk`.
- 
+ ![Screenshot of Add Peering](Pictures/docker_container_list.png)
 
 Install Filebeat on your DVWA VM:
-- Open your ELK server homepage.
+- Open ELK server homepage.
     - Click on **Add Log Data**.
  
     - Choose **System Logs**.
