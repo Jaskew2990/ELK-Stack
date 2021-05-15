@@ -13,7 +13,6 @@ UNIT 13 PROJECT SUBMISSION
 - Resulting connection from  RedTeam Vnet to Elk vNet = "Red-to-Elk" 
 - All other settings at their defaults
  
-
 ### 2. Creating a New VM
 Created a new virtual machine to run ELK.
 
@@ -35,7 +34,7 @@ SSH into Jump-Box
 
 
 - Check for your Ansible container:
-- 
+
 ![Screenshot of Add Peering](Pictures/AnsibleContainer.png)
  
  
