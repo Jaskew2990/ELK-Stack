@@ -138,7 +138,7 @@ Incoming rule for security group: Allow TCP traffic over port `5601` from IP add
  
 ![Screenshot of Add Peering](Pictures/TCP_5601.PNG)
 
-![Screenshot of Add Peering](Pictures/TCP_5601(2).PNG)
+![Screenshot of Add Peering](Pictures/TCP_5601(2).png)
  
 Verify by loading the ELK stack server from  browser at `http://[your.VM.IP]:5601/app/kibana`. 
 (NOTE, THE IP ADDRESS CHANGES EACH TIME YOU START THE VM IN AZURE)
