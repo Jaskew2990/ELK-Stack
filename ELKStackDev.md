@@ -65,9 +65,10 @@ SSH into VM
 
 
 Configure a new VM using that SSH key.
-    - Make sure this VM has at least 4 GB of RAM.
-    - Make sure it has a public IP address.
-    - Make sure it is added to your new vNet (ELK_VN) and create a new Security Group for it.
+
+- At least 4 GB of RAM.
+- Public IP address.
+- Added to  new vNet (ELK_VN) with new Security Group for it.
 
 #### 3. Downloading and Configuring the Container
 In this step, you had to:
