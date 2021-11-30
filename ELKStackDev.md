@@ -1,4 +1,4 @@
-#### SETTING UP ELK STACK SEVER TO MONITOR CLOUND NETWORK
+#### SETTING UP ELK STACK SEVER TO MONITOR CLOUD NETWORK
 - A new vNet located in the same resource group.
 
 ![Screenshot of Original VM](Pictures/createVN.png)
